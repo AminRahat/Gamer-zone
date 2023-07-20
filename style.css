@@ -170,3 +170,117 @@
     color: white;
   }
   /* banner ends here */
+  /* we are gamers css */
+  .hero-bottom {
+    background-color: rgba(255, 66, 164, 0.03);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 10rem;
+    height: 40rem;
+    align-items: center;
+  }
+  
+  .bottom-text {
+    text-align: right;
+  }
+  
+  .bottom-text .main-text {
+    font-size: 2.8rem;
+  }
+  
+  .bottom-description {
+    margin-left: 4rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  
+    margin-bottom: 1rem;
+  }
+  
+  .purpose {
+    font-size: 2.4rem;
+    margin-block: 2rem;
+    margin-bottom: 0.5rem;
+    color: #534c64;
+  }
+  
+  .motto {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #534c64;
+  }
+  /* we are gamers ends */
+
+  /* online games section */
+
+  .section-games {
+    margin-top: 4rem;
+    padding-inline: 10rem;
+  }
+  
+  .section-games img {
+    width: 100%;
+  }
+  
+  .games-heading {
+    text-align: center;
+  }
+  
+  .games-title,
+  .games-title .main-text {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .games-des {
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+  }
+  
+  .game-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.4rem;
+  }
+  
+  .game-des {
+    margin-top: 1rem;
+    color: #534c64;
+    font-size: 1.1rem;
+  }
+  
+  .game-img::before,
+  .game-img::after {
+    color: #ff42a5;
+    position: absolute;
+    inset: 0;
+    border: 2px solid #ff42a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4rem;
+    border-radius: 12px;
+  
+    z-index: -1;
+  }
+  
+  .game-img::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f144";
+    padding-bottom: 3rem;
+    background-color: rgba(11, 2, 35, 0.7);
+  }
+  .game-img::after {
+    content: "Watch Now";
+    padding-top: 3rem;
+  }
+  
+  .game-img:hover::before,
+  .game-img:hover::after {
+    z-index: 2;
+  }
+
+  .game-img {
+    position: relative;
+  }
+/* online games ends */
